@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+
+    <LinearLayout android:id="@+id/all_ll_title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@android:drawable/alert_light_frame">
+
+        <TextView android:id="@+id/all_tv_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="TITLE: "
+            android:textColor="@android:color/black"/>
+
+        <TextView android:id="@+id/all_tv_title_content"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="content"
+            android:textColor="@android:color/darker_gray"/>
+
+        </LinearLayout>
+
+
+    <LinearLayout android:id="@+id/all_ll_text"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@android:drawable/alert_light_frame">
+
+        <TextView android:id="@+id/all_tv_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="TEXT: "
+            android:textColor="@android:color/black"/>
+
+        <TextView android:id="@+id/all_tv_text_content"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="content"
+            android:textColor="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
