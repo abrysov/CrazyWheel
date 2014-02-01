@@ -33,6 +33,7 @@ public class ActivityMain extends Activity {
 
         if (savedInstanceState == null) {
             fragmentPlaceholder = new FragmentPlaceholder();
+
             fm = getFragmentManager();
             fm.beginTransaction()
                     .add(R.id.container, fragmentPlaceholder, TAG_FRAGMENT_LIST).commit();
